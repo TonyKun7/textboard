@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "outDir": "build",
+      "rootDir": "src",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmitOnError": true
+    },
+    "include": ["src/**/*", "getCookie.ts"],
+    "exclude": ["node_modules"]
+  }
